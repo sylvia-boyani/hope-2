@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #031703; */
+  }
+
+.header_container {
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    background: transparent;
+}
+
+.header_container h5 {
+    justify-content: center;
+    text-align:center;
+    height: 20px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.header_container h1 {
+    margin-top: 30px;
+    margin: auto;
+    border: 1px solid green;
+}
+
+#vida {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+    margin: auto;
+    max-width: 1200px;
+    
+}

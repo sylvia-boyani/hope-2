@@ -4,54 +4,195 @@ export const menuItems = [
     url: '/',
   },
   {
-    title: 'Services',
-    url: '/services',
-    submenu: [
-      {
-        title: 'web design',
-        url: 'web-design',
-      },
-      {
-        title: 'web development',
-        url: 'web-dev',
-        submenu: [
-          {
-            title: 'Frontend',
-            url: 'frontend',
-          },
-          {
-            title: 'Backend',
-            submenu: [
-              {
-                title: 'NodeJS',
-                url: 'node',
-              },
-              {
-                title: 'PHP',
-                url: 'php',
-              },
-            ],
-          },
-        ],
-      },
-      {
-        title: 'SEO',
-        url: 'seo',
-      },
-    ],
-  },
-  {
     title: 'About',
     url: '/about',
     submenu: [
       {
         title: 'Who we are',
-        url: 'who-we-are',
+        url: 'who-we-are'
       },
       {
-        title: 'Our values',
-        url: 'our-values',
+        title: 'Statement of Faith',
+        url: 'statement'
       },
-    ],
+      {
+        title: 'Our History',
+        url: 'history'
+      },
+      {
+        title: 'Leaders',
+        url: 'leaders'
+      },
+      {
+        title: 'Our Ministries',
+        url: 'ministries'
+      },
+      {
+        title: 'Resources',
+        submenu: [
+          {
+            title: 'Quality Statement',
+            url: 'quality'
+          },
+          {
+            title: 'Constitution',
+            url: 'constitution'
+          },
+          {
+            title: 'Financial Reports',
+            url: 'financial'
+          },
+          {
+            title: 'strategic Plan',
+            url: 'ministries'
+          },
+          {
+            title: 'By Laws',
+            url: 'laws'
+          },
+          
+
+        ]
+      },
+    ]
+  },
+  {
+    title: 'Our Churches',
+    url: '/churches',
+    submenu: [
+      {
+        title: 'Nairobi',
+        url: 'web-design',
+        submenu: [
+          {
+            title: 'Highridge',
+            url: '*',
+          },
+          {
+            title: 'Raila',
+            url: '*',
+          },
+          {
+            title: 'Kibera',
+            url: '*',
+          },
+          {
+            title: 'Grogon',
+            url: '*',
+          },
+          {
+            title: 'Fuata Nyayo',
+            url: '*',
+          },
+          {
+            title: 'Kiambio',
+            url: '*',
+          },
+          {
+            title: 'Gitwamba',
+            url: '*',
+          },
+          
+        ]
+      },
+      {
+        title: 'Mombasa',
+        url: 'web-dev',
+        submenu: [
+          {
+            title: 'Kibaoni',
+            url: '*',
+          },
+          {
+            title: 'Maram',
+            url: '*',
+          },
+          {
+            title: 'Povuni',
+            url: '*',
+          },
+          {
+            title: 'Manda',
+            url: '*',
+          },
+          {
+            title: 'Nabemo',
+            url: '*',
+          },
+          {
+            title: 'Mahamasi',
+            url: '*',
+          },
+          {
+            title: 'Mombasa',
+            url: '*',
+          },
+          
+        ]
+      },
+      {
+        title: 'Kilifi',
+        submenu: [
+          {
+            title: 'Chwele',
+            url: '*',
+          },
+          {
+            title: 'Roka',
+            url: '*',
+          },
+          {
+            title: 'Malengo',
+            url: '*',
+          },
+          {
+            title: 'Changamoto',
+            url: '*',
+          },
+          {
+            title: 'Hitimisho',
+            url: '*',
+          },
+          {
+            title: 'Sogorosa',
+            url: '*',
+          },
+          {
+            title: 'Saba-saba-Hindi',
+            url: '*',
+          },
+        ]
+      },
+      {
+        title: 'Western',
+        url: 'western',
+        submenu: [
+          {
+            title: 'Busia',
+            url: 'busia',
+          },
+          {
+            title: 'Lugari',
+            url: 'Lugari',
+          },
+        ]
+      },
+    ]
+  },
+  {
+    title: 'News & Media',
+    url: '/news',
+  },
+  {
+    title: 'Contact',
+    url: '/contact',
+  },
+  {
+    title: 'Support',
+    url: '/support',
+  },
+  {
+    title: 'Careers',
+    url: '/careers',
   },
 ];

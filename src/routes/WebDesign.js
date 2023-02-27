@@ -1,5 +1,5 @@
 const WebDesign = () => {
-  return <h2>Web design content</h2>;
+  return <h2>Nairobi</h2>;
 };
 
 export default WebDesign;

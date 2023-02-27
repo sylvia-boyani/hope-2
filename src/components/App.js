@@ -2,15 +2,17 @@ import { Routes, Route } from 'react-router-dom';
 import Home from '../routes/Home';
 import About from '../routes/About';
 import WebDesign from '../routes/WebDesign';
-import SEO from '../routes/SEO';
-import Services from '../routes/Services';
+import Kilifi from '../routes/Kilifi';
+import Church from '../routes/Church';
 import Layout from './Layout';
-import Frontend from '../routes/Frontend';
-import PHP from '../routes/PHP';
-import Node from '../routes/Node';
 import AboutWho from '../routes/AboutWho';
 import OurValues from '../routes/OurValues';
-import WebDev from '../routes/WebDev';
+import History from '../routes/History';
+import Leaders from '../routes/Leaders';
+import Statement from '../routes/Statement';
+import Support from '../routes/Support';
+import Careers from '../routes/Careers';
+import Ministries from '../routes/Ministries';
 
 const App = () => {
   return (
@@ -19,16 +21,18 @@ const App = () => {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="services" element={<Services />} />
+          <Route path="church" element={<Church />} />
           <Route path="web-design" element={<WebDesign />} />
-          <Route path="web-dev" element={<WebDev />} />
-          <Route path="frontend" element={<Frontend />} />
-          <Route path="node" element={<Node />} />
-          <Route path="seo" element={<SEO />} />
-          <Route path="php" element={<PHP />} />
+          <Route path="kilifi" element={<Kilifi />} />
           <Route path="who-we-are" element={<AboutWho />} />
           <Route path="our-values" element={<OurValues />} />
           <Route path="*" element={<p>Not found!</p>} />
+          <Route path='history' element={<History />}/>
+          <Route path='leaders' element={<Leaders />}/>
+          <Route path='statement' element={<Statement />}/>
+          <Route path='ministries' element={<Ministries />}/>
+          <Route path='support' element={<Support />}/>
+          <Route path='careers' element={<Careers />}/>
         </Route>
       </Routes>
     </>

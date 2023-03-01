@@ -1,6 +1,7 @@
 import React from 'react'
 import video from '../assets/video1.mp4'
 import './Home.css'
+import HeaderSocials from './HeaderSocials'
 
 
 function Home() {
@@ -16,7 +17,7 @@ function Home() {
         <h2><i>JOHN 15:3</i></h2>
         <h3 className= "text-light">Needing Jesus Christ Together</h3>
         {/* <img id ="logo" src={tuma} alt="" /> */}
-        {/* <HeaderSocial /> */}
+        <HeaderSocials />
         
       </div>
     </div>

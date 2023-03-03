@@ -23,11 +23,55 @@ header {
   margin-top: 0;
 }
 
-.logo {
+img{
+  max-height: 80px;
+  max-width: 800px;
+  top: 0;
+  bottom: 0;
+  left: 0; 
+  background-color: white;
+}
+
+/* .logo {
+  top: 0;
+  left: 0;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 2px;
   color: inherit;
-  margin-right: 20px;
+  position: absolute;
+  max-width: 80px;
+  max-height: 80px; 
+  border: solid red;
+  padding: 10px 20px;
+ 
+} */
+
+.statement{
+  width: 90%;
+  margin-left: 20px;
+  list-style-position: outside;
+}
+p .one{
+  /* text-indent: 50px; */
+  list-style: decimal;
+  line-height: 20px;
+ 
+}
+p .three{
+  list-style: lower-alpha;
+ 
+}
+
+p li{
+  margin-top: 1.5rem;
+}
+
+p h3{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.summary{
+  line-height: 1.5rem;
 }
 
 .menus {
@@ -110,6 +154,8 @@ button span {
   top: -7px;
 }
 
+
+
 /* content */
 
 .content {
@@ -123,6 +169,44 @@ button span {
 }
 
 .content a {
-  /* color: #cc3852; */
   margin-right: 10px;
+}
+
+@media all and (max-width: 1440px){
+
+}
+
+
+
+@media all and (max-width: 600px){
+  .menu-items {
+    position: relative;
+    font-size: 8px;
+    
+  }
+
+
+.content h2 {
+  margin-bottom: 0.5rem;
+}
+
+/* .logo {
+  font-size: 1px;
+  margin-right: 10px;
+} */
+
+.dropdown {
+  right: 0;
+  left: auto;
+  font-size: 0.875rem;
+  z-index: 9999;
+  min-width: 5rem;
+  padding: 0.2rem 0;
+  border-radius: 0.2rem;
+}
+
+.menu-items > a, .menu-items button {
+  text-align: left;
+  padding: 0.3rem 0.3rem;
+}
 }

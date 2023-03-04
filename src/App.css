@@ -21,6 +21,7 @@ header {
   padding: 10px 20px;
   background-color: #0d7a0b;
   margin-top: 0;
+  border: solid red;
 }
 
 img{
@@ -31,20 +32,6 @@ img{
   left: 0; 
   background-color: white;
 }
-
-/* .logo {
-  top: 0;
-  left: 0;
-  text-decoration: none;
-  font-size: 2px;
-  color: inherit;
-  position: absolute;
-  max-width: 80px;
-  max-height: 80px; 
-  border: solid red;
-  padding: 10px 20px;
- 
-} */
 
 .statement{
   width: 90%;
@@ -154,7 +141,10 @@ button span {
   top: -7px;
 }
 
-
+.header_container {
+  line-height: 1rem;
+  height: 150px;
+}
 
 /* content */
 

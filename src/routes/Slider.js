@@ -2,6 +2,8 @@ import React from 'react'
 import './Slider.css'
 import Salvador from '../assets/salvador.jpg'
 import City from '../assets/city.jpg'
+import Tumahouse from '../assets/tuma-house.jpeg';
+import board from '../assets/board.jpeg'
 import ubc from '../assets/ubc.jpg'
 
 // import Swiper core and required modules
@@ -29,7 +31,7 @@ const Slider = () => {
 
         <SwiperSlide className="testimonial">
           <div className='client_avatar'>
-            <img src={City} alt="" />
+            <img src={Tumahouse} alt="" />
           </div>
             <h5 className='client_name'>Men's Conference</h5>
             <small className='client_review'>
@@ -41,7 +43,7 @@ const Slider = () => {
 
         <SwiperSlide className="testimonial">
           <div className='client_avatar'>
-            <img src={Salvador} alt="" />
+            <img src={board} alt="" />
           </div>
             <h5 className='client_name'>Youth Conference</h5>
             <small className='client_review'>

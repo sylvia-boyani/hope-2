@@ -58,6 +58,9 @@ body{
     .leader{
         width: 100%;
         width: var(--container-width-sm);
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1.5rem;
     }
     .lead-content p{
         margin-bottom: 0;

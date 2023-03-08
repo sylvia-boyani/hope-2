@@ -153,13 +153,21 @@ function Statement() {
 
         <p className='summary'>
           We recognize Jesus Christ as God’s living word and sacrifice for sin. It is through God’s initiative in sending Jesus in to the word that receives the knowledge of God in such a way that through faith in Him one comes to the life of the believer to give direction for the living.
-
+            <br></br>
+            <br></br>
           We recognize that the Bible is God’s written word to man, revealed to and recorded by his apostles and prophets without error and it is our final authority in all matters of faith and practice.
-
+          <br></br>
+          <br></br>
           We also believe in the bodily resurrection of Jesus Christ from the dead  as the guarantee of God’s final victory over sin, evil and death. It is the privilege of those who know Christ to rejoice in the assurance of their salvation. This privilege is never to be occasioned for sin,
           but rather leads to a fruitful, God pleasing life.
-
-          The Church is Christ’s Body on earth is this present age
+          <br></br>
+          <br></br>
+          The Church is Christ’s Body on earth is this present age. Every person who has trusted Christ
+          is oncorporated in the church.
+          <br></br>
+          <br></br>
+          We believe that the Lord established two ordinances to be observed intil His return - baptimsand the 
+          Lord's Table and we encourage participation
         </p>
       </p>
     </div>

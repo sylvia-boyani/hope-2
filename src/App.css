@@ -21,7 +21,6 @@ header {
   padding: 10px 20px;
   background-color: #0d7a0b;
   margin-top: 0;
-  /* border: solid red; */
 }
 
 img{
@@ -59,6 +58,7 @@ p h3{
 }
 .summary{
   line-height: 1.5rem;
+
 }
 
 .menus {

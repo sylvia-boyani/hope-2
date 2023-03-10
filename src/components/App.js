@@ -6,11 +6,10 @@ import Kilifi from '../routes/Kilifi';
 import Church from '../routes/Church';
 import Layout from './Layout';
 import AboutWho from '../routes/AboutWho';
-import OurValues from '../routes/OurValues';
 import History from '../routes/History';
 import Leaders from '../routes/Leaders';
 import Statement from '../routes/Statement';
-import Support from '../routes/Support';
+import Contact from '../routes/Contact';
 import Careers from '../routes/Careers';
 import Ministries from '../routes/Ministries';
 
@@ -25,13 +24,12 @@ const App = () => {
           <Route path="web-design" element={<WebDesign />} />
           <Route path="kilifi" element={<Kilifi />} />
           <Route path="who-we-are" element={<AboutWho />} />
-          <Route path="our-values" element={<OurValues />} />
           <Route path="*" element={<p>Not found!</p>} />
           <Route path='history' element={<History />}/>
           <Route path='leaders' element={<Leaders />}/>
           <Route path='statement' element={<Statement />}/>
           <Route path='ministries' element={<Ministries />}/>
-          <Route path='support' element={<Support />}/>
+          <Route path='contact' element={<Contact />}/>
           <Route path='careers' element={<Careers />}/>
         </Route>
       </Routes>

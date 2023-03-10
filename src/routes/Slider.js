@@ -1,13 +1,14 @@
 import React from 'react'
 import './Slider.css'
-import Salvador from '../assets/salvador.jpg'
-import City from '../assets/city.jpg'
 import Tumahouse from '../assets/tuma-house.jpeg';
 import board from '../assets/board.jpeg'
-import ubc from '../assets/ubc.jpg'
+import men from '../assets/mens.jpeg'
+import women from '../assets/women.jpeg'
+import agm from '../assets/agm.jpeg'
+import youth from '../assets/youth.jpeg'
 
 // import Swiper core and required modules
-import { Autoplay, Pagination } from 'swiper';
+import { Autoplay } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/autoplay';
@@ -22,21 +23,20 @@ const Slider = () => {
     <section id='testimonials'>
       <Swiper className='container_testimonials-container'
             
-       modules={[Pagination, Autoplay]} 
+       modules={[ Autoplay]} 
        spaceBetween={40} 
        slidesPerView={1} 
        autoplay={true}
-       pagination={{ clickable: true }} 
+      
       >     
 
         <SwiperSlide className="testimonial">
           <div className='client_avatar'>
             <img src={Tumahouse} alt="" />
           </div>
-            <h5 className='client_name'>Men's Conference</h5>
+            <h5 className='client_name'>Tumaini House</h5>
             <small className='client_review'>
-            Lorem Ipsum is simply dummy text of the printing
-             and typesetting industry.
+            
             </small>
           
         </SwiperSlide>
@@ -45,46 +45,42 @@ const Slider = () => {
           <div className='client_avatar'>
             <img src={board} alt="" />
           </div>
-            <h5 className='client_name'>Youth Conference</h5>
+            <h5 className='client_name'>Executive Board Members</h5>
             <small className='client_review'>
-            Lorem Ipsum is simply dummy text of the printing
-             and typesetting industry.
+            
             </small>
           
         </SwiperSlide>
 
         <SwiperSlide className="testimonial">
           <div className='client_avatar'>
-            <img src={City} alt="" />
+            <img src={men} alt="" />
           </div>
-            <h5 className='client_name'>Concerts</h5>
+            <h5 className='client_name'>Bishop with Coastal region Pastors</h5>
             <small className='client_review'>
-            Lorem Ipsum is simply dummy text of the printing
-             and typesetting industry. 
+            
             </small>
           
         </SwiperSlide>
 
         <SwiperSlide className="testimonial">
           <div className='client_avatar'>
-            <img src={ubc} alt="" />
+            <img src={women} alt="" />
           </div>
-            <h5 className='client_name'>Women's Conference</h5>
+            <h5 className='client_name'>Women in Ministry</h5>
             <small className='client_review'>
-            Lorem Ipsum is simply dummy text of the printing
-             and typesetting industry.
+            
             </small>
           
         </SwiperSlide>
 
         <SwiperSlide className="testimonial">
           <div className='client_avatar'>
-            <img src={Salvador} alt="" />
+            <img src={agm} alt="" />
           </div>
             <h5 className='client_name'>Annual General Meeting</h5>
             <small className='client_review'>
-            Lorem Ipsum is simply dummy text of the printing
-             and typesetting industry.
+            
             </small>
           
         </SwiperSlide>
@@ -94,12 +90,11 @@ const Slider = () => {
       
 
           <div className='client_avatar'>
-            <img src={ubc} alt="" />
+            <img src={youth} alt="" />
           </div>
-            <h5 className='client_name'>Community Outreach</h5>
+            <h5 className='client_name'>Our Youth</h5>
             <small className='client_review'>
-            Lorem Ipsum is simply dummy text of the printing
-             and typesetting industry.
+            
             </small>
           
         </SwiperSlide>

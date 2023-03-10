@@ -4,6 +4,7 @@ import './Home.css'
 import HeaderSocials from './HeaderSocials'
 //import tuma from '../assets/tuma.png'
 import Slider from '../routes/Slider.js'
+//import News from './News.js'
 
 
 function Home() {
@@ -20,10 +21,13 @@ function Home() {
         <h2><i>JOHN 15:3</i></h2>
         </div>
         <h3 className= "text-light">Needing Jesus Christ Together</h3>
-        {/* <img id ="logo" src={tuma} alt=""/> */}
         <HeaderSocials />
         <Slider />
+        {/* <News /> */}
       </div>
+
+
+      
     </div>
   )
 }

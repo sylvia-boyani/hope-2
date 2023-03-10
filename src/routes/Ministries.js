@@ -107,7 +107,7 @@ function Cards() {
               them and their needs to a God who cares
                and can help them far more than we could
                 ever hope to do ourselves.'
-              label='Prayer'
+              label='Prayer Ministry'
               path='/'
             />
 

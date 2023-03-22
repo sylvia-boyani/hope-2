@@ -69,8 +69,8 @@ input, textarea{
 
 @media screen and (max-width: 1024px) {
     .container.contact_container {
-      grid-template-columns: 1fr;
-      gap: 2rem;
+      /* grid-template-columns: 1fr;
+      gap: 2rem; */
     }
 }
   

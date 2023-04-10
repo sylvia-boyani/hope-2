@@ -5,6 +5,7 @@ import HeaderSocials from './HeaderSocials'
 //import tuma from '../assets/tuma.png'
 import Slider from '../routes/Slider.js'
 //import News from './News.js'
+import Gallery from './Gallery'
 
 
 function Home() {
@@ -23,7 +24,8 @@ function Home() {
         <h3 className= "text-light">Needing Jesus Christ Together</h3>
         <HeaderSocials />
         <Slider />
-        {/* <News /> */}
+        <Gallery />
+        e
       </div>
 
 

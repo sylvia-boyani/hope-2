@@ -17,8 +17,7 @@ const imageURL =
 export default function Gallery() {
   return (
     <div className="Gallery">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h2>Take a look at some of our events!</h2>
       {/* <SRLWrapper> */}
       <div className="container1">
         <div className="image-card">
@@ -39,6 +38,30 @@ export default function Gallery() {
         <div className="image-card">
           <video className="img" controls>
             <source src={videoPlayer5} />
+          </video>
+        </div>
+
+        <div className="image-card">
+          <video className="img" controls>
+            <source src={videoPlayer5} /> 
+          </video>
+        </div>
+
+        <div className="image-card">
+          <video className="img" controls>
+            <source src={videoPlayer2} />
+          </video>
+        </div>
+
+        <div className="image-card">
+          <video className="img" controls>
+            <source src={videoPlayer} />
+          </video>
+        </div>
+
+        <div className="image-card">
+          <video className="img" controls>
+            <source src={videoPlayer7} />
           </video>
         </div>
 

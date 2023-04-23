@@ -26,7 +26,7 @@ function Home() {
         <HeaderSocials />
         <Slider />
         <Gallery />
-        <News />
+        {/* <News /> */}
       </div>
 
 

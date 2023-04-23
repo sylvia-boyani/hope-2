@@ -11,7 +11,7 @@
     opacity: 0.7;
   }
   .container1 {
-    width: 80%;
+    width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -27,3 +27,10 @@
     width: 100%;
   }
   
+
+  @media all and (max-width: 600px){
+   .Gallery h2{
+    font-size: 20px;
+   }
+
+}

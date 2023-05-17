@@ -180,6 +180,20 @@ export const menuItems = [
     ]
   },
   {
+    title: 'Minitry Projects',
+    url: 'projects',
+    submenu: [
+     {
+      title: 'TUMATI',
+      url: 'tumati',
+     },
+     {
+      title: 'LAMU HOUSE',
+      url: 'lamu',
+     },
+    ]
+  },
+  {
     title: 'News & Media',
     url: '/news',
   },

@@ -12,6 +12,7 @@ import Statement from '../routes/Statement';
 import Contact from '../routes/Contact';
 import Careers from '../routes/Careers';
 import Ministries from '../routes/Ministries';
+import Tumati from '../routes/Tumati';
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
           <Route path='history' element={<History />}/>
           <Route path='leaders' element={<Leaders />}/>
           <Route path='statement' element={<Statement />}/>
+          <Route path='tumati' element= {<Tumati />}/>
           <Route path='ministries' element={<Ministries />}/>
           <Route path='contact' element={<Contact />}/>
           <Route path='careers' element={<Careers />}/>

@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@heroicons/react": "^2.0.18",
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.14",
     "@testing-library/jest-dom": "^5.16.5",
@@ -18,7 +19,6 @@
     "react-auto-image-slider": "^1.0.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
-    "react-html5video": "^2.5.1",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",

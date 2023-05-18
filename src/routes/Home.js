@@ -5,7 +5,6 @@ import HeaderSocials from './HeaderSocials'
 //import tuma from '../assets/tuma.png'
 import Slider from '../routes/Slider.js'
 import News from './Services'
-//import News from './News.js'
 import Gallery from './Gallery'
 import Footer from './footer'
 

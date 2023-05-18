@@ -180,7 +180,7 @@ export const menuItems = [
     ]
   },
   {
-    title: 'Minitry Projects',
+    title: 'Ministry Projects',
     url: 'projects',
     submenu: [
      {

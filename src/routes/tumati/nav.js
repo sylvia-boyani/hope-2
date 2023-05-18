@@ -1,14 +1,17 @@
 import { useState } from 'react';
 import '../../routes/tumati/nav.css'
+import logo from '../../assets/tumati-logo.jpeg'
 
 export default function Nav() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
 
     return (
       <nav className="navigation">
+        <img id ="logo" src={logo} alt="" /> 
         <a href="/" className="brand-name">
-          Tumati
+          TUMATI
         </a>
+        
         <button className="hamburger"
         onClick={() => {
             setIsNavExpanded(!isNavExpanded);
@@ -33,19 +36,22 @@ export default function Nav() {
             isNavExpanded ? "navigation-menu expanded" : "navigation-menu"}>
           <ul>
             <li>
-              <a href="/home">Home</a>
+              <a href="/homeT">Home</a>
             </li>
             <li>
-              <a href="/about">About</a>
+              <a href="/aboutT">About</a>
             </li>
             <li>
-              <a href="/contact">Team</a>
+              <a href="/programs">Our Programs</a>
             </li>
             <li>
-              <a href="/contact">Blog</a>
+              <a href="/team">Team</a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a href="/blog">Blog</a>
+            </li>
+            <li>
+              <a href="/contactT">Contact</a>
             </li>
           </ul>
         </div>

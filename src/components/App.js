@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
 import Home from '../routes/Home';
-import About from '../routes/About';
 import WebDesign from '../routes/WebDesign';
 import Kilifi from '../routes/Kilifi';
 import Church from '../routes/Church';
@@ -20,7 +19,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
           <Route path="church" element={<Church />} />
           <Route path="web-design" element={<WebDesign />} />
           <Route path="kilifi" element={<Kilifi />} />

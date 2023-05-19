@@ -1,29 +1,38 @@
-import React from 'react'
-import tumatiHero from '../../assets/tumati-hero.jpeg'
-import { Container, Row, Col } from 'reactstrap'
+import React from "react";
+import { Container, Row, Col } from "reactstrap";
+import tumatiL from '../../assets/tumati-learn.jpg'
 import '../../routes/tumati/heroSection.css'
 
-function HeroSection() {
+
+const HeroSection = () => {
   return (
     <section>
       <Container>
         <Row>
-            <Col lg='6' md='6'>
-                <div className='hero_content'>
-                   <h2>Empowering the Boy-Child</h2>
-                   <p>Lorem Ipsum is simply dummy text of 
-                    the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard
-                    dummy text ever since the 1500s, when an 
-                    unknown printer took a galley of type and 
-                    scrambled it to make a type specimen book.
-                    </p>
-                </div>
-            </Col>
+          <Col lg="6" md="6" className="sm_container">
+            <div className="hero__content">
+              <h2 className="mb-4 hero__title">
+                Anytime Anywhere <br /> Learn on your <br /> Suitable Schedule
+              </h2>
+              <p className="mb-5">
+                Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit.
+                Aut saepe voluptatum earum delectus <br /> deserunt id iste,
+                quas officiis et repellat!
+              </p>
+            </div>
+            <div className="search">
+              <input type="text" placeholder="Search" />
+              <button className="btn">Search</button>
+            </div>
+          </Col>
+
+          <Col lg="6" md="6">
+            <img src={tumatiL} alt="" className="hero__img" />
+          </Col>
         </Row>
       </Container>
     </section>
-  )
-}
+  );
+};
 
-export default HeroSection
+export default HeroSection;

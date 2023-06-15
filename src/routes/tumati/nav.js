@@ -45,7 +45,7 @@ export default function Nav() {
               <a href="/programs">Our Programs</a>
             </li>
             <li>
-              <a href="/team">Team</a>
+              <a href="/team">Team</a> 
             </li>
             <li>
               <a href="/blog">Blog</a>

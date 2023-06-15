@@ -54,18 +54,24 @@ footer a {
    @media screen and (max-width: 600px) {
     .permalinks {
       flex-direction: row;
-      gap: .8rem;
+      gap: .6rem;
+      margin-bottom: .6rem;
     }
 
     .footer_socials{
-        margin-bottom: .6rem;
+        margin-bottom: .4rem;
+    }
+
+    .footer_socials a{
+        padding: 0.2rem;
+        border-radius: 0.7rem;
     }
 
     footer{
         padding: 0.5rem 0;
         text-align: center;
         font-size: 0.7rem;
-        height: 40vh;
+        height: 20vh;
         width: 100%;
     }
    } 

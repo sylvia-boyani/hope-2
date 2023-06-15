@@ -194,19 +194,11 @@ export const menuItems = [
     ]
   },
   {
-    title: 'News & Media',
-    url: '/news',
-  },
-  {
     title: 'Contact',
     url: '/contact',
   },
   {
     title: 'Support',
     url: '/support',
-  },
-  {
-    title: 'Careers',
-    url: '/careers',
   },
 ];

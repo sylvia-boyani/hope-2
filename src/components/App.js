@@ -9,7 +9,7 @@ import History from '../routes/History';
 import Leaders from '../routes/Leaders';
 import Statement from '../routes/Statement';
 import Contact from '../routes/Contact';
-import Careers from '../routes/Careers';
+import Events from '../routes/Events';
 import Ministries from '../routes/Ministries';
 import Tumati from '../routes/Tumati';
 
@@ -30,7 +30,7 @@ const App = () => {
           <Route path='tumati' element= {<Tumati />}/>
           <Route path='ministries' element={<Ministries />}/>
           <Route path='contact' element={<Contact />}/>
-          <Route path='careers' element={<Careers />}/>
+          <Route path='events' element={<Events />}/>
         </Route>
       </Routes>
     </>

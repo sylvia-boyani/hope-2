@@ -7,6 +7,7 @@ import Slider from '../routes/Slider.js'
 import News from './Services'
 import Gallery from './Gallery'
 import Footer from './footer'
+import Events from '../routes/Events'
 
 
 function Home() {
@@ -25,6 +26,7 @@ function Home() {
         <h3 className= "text-light">Needing Jesus Christ Together</h3>
         <HeaderSocials />
         <Slider />
+        <Events />
         <Gallery />
         {/* <News /> */}
         <Footer />

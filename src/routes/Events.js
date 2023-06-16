@@ -1,40 +1,50 @@
+import {useState} from 'react'
+
 function Events(){
 const [cards] = useState([
     {
-        title: Sly1,
+        title: 'Card-1',
         text: `Lorem ipsum dolor sit amet,
          consectetur adipiscing elit.
          In fringilla dictum nunc, id feugiat 
          ex pharetra fermentum. Interdum et malesuada fames`
     },
     {
-        title: Boyani2,
+        title: 'Card-2',
         text: `Lorem ipsum dolor sit amet,
          consectetur adipiscing elit.
          In fringilla dictum nunc, id feugiat 
          ex pharetra fermentum. Interdum et malesuada fames`
     },
     {
-        title: Ombogo3,
+        title: 'Card-3',
         text: `Lorem ipsum dolor sit amet,
          consectetur adipiscing elit.
          In fringilla dictum nunc, id feugiat 
          ex pharetra fermentum. Interdum et malesuada fames`
     },
     {
-        title: Sirimbi4,
+        title: 'Card-4',
         text: `Lorem ipsum dolor sit amet,
          consectetur adipiscing elit.
          In fringilla dictum nunc, id feugiat 
          ex pharetra fermentum. Interdum et malesuada fames`
     },
     {
-        title: Sly5,
+        title: 'Card-6',
         text: `Lorem ipsum dolor sit amet,
          consectetur adipiscing elit.
          In fringilla dictum nunc, id feugiat 
          ex pharetra fermentum. Interdum et malesuada fames`
-    }
+    },
+    {
+        title: 'Card-7',
+        text: `Lorem ipsum dolor sit amet,
+         consectetur adipiscing elit.
+         In fringilla dictum nunc, id feugiat 
+         ex pharetra fermentum. Interdum et malesuada fames`
+    },
+    
 ])
 
     return (
@@ -46,8 +56,8 @@ const [cards] = useState([
                         {cards.map((card, i) => (
                              <div key={i} className="card">
                                 <h3>{card.title}</h3>
-                                <p>card.text</p>
-                                </div>
+                                <p>{card.text}</p>
+                            </div>
                             ))}
                     </div>
                 </div>

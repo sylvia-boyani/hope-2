@@ -10,12 +10,12 @@
     height: 200%;
     background: transparent;
     color: #031703;
-    line-height: 20px;
+    line-height: 30px;
 }
 
 .header_container h2{
-    line-height: 5px;
-    margin-top: 2px;
+    line-height: 15px;
+    margin-top: 20px;
 }
 
 .header_container h5 {
@@ -24,6 +24,7 @@
     height: 20px;
     margin: auto;
     margin-top: .2rem;
+    margin-bottom: 20px;
 }
 
 .header_container h1 {

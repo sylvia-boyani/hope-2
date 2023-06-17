@@ -10,7 +10,7 @@ import Footer from './footer'
 import Events from '../routes/Events'
 
 
-function Home() {
+function Home() { 
   return (
     <div>
      <div id='overlay'>
